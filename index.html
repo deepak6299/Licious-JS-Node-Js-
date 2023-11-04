@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licious</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn link for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="https://www.licious.in/image/rebranding/svg/licious-logo.svg" width="100px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="iaboutndex.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://assets.licious.in/OMS-ProductMerchantdising/8d77f4e0-dec3-b7fd-24e2-a1c628ee0af5/original/1695446074269.jpg" class="d-block w-100 " alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/e62b9430-a6eb-e2ac-f4e2-2a9b758df2bb/original/chicken_Relevance_PDP_Chicken_Breast_470_X_320_PDP_(1).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/b7dc19fe-f1e1-3dc0-e6d3-8debf6ed8724/original/PDP_2._Rich_Goat_Curry_Cut_Small-04_(3).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+</div>
+
+<section class="products chiken">
+    <h2>Chicken Item</h2>
+    <p>Most popular products</p>
+  <div class="product-card">
+    <div class="product-info">
+        <img src="https://www.licious.in/_next/image?url=https%3A%2F%2Fdao54xqhg9jfa.cloudfront.net%2FOMS-ProductMerchantdising%2Fc46e9458-cf56-01bc-eff8-1dd37ff0c233%2Foriginal%2FPDP_16._Chicken_Curry_Cut_(Small_-_13_to_16_Pieces)_hyd_cut_(2).jpg%3Fformat%3Dwebp&w=1200&q=75" alt="">
+        <div class="des">
+            <span>Chiken Curry Cut - small Pieces</span>
+            <h5>500g</h5>
+            <h4>$200</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/0c927437-9cc4-7a3d-a795-f2caf0a96f81/original/PDP_4.Chicken_Thigh_(Boneless)_(1).jpg" alt="">
+        <div class="des">
+            <span>Premium Chicken Thigh Boneless</span>
+            <h5>500g</h5>
+            <h4>$359</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/03c1dcb0-78db-66a0-68d9-1c6528dd07a9/original/PDP_6.Chicken_Mini_Bites_(Boneless)-08.jpg" alt="">
+        <div class="des">
+            <span>Chicken Boneless - Mini Bites</span>
+            <h5>500g</h5>
+            <h4>$225</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/02d4caea-480b-5793-38f6-6b031dc2f437/original/PDP_3.Chicken_Curry_Cut_Large_470_X_320_PDP.jpg" alt="">
+        <div class="des">
+            <span>Chicken Curry Cut - Large Pieces</span>
+            <h5>500g</h5>
+            <h4>$200</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+   
+  </div>
+</section>
+
+<section class="products mutton">
+    <h2>Mutton Item</h2>
+    <p>Most popular products</p>
+  <div class="product-card">
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/b7dc19fe-f1e1-3dc0-e6d3-8debf6ed8724/original/PDP_2._Rich_Goat_Curry_Cut_Small-04_(3).jpg" alt="">
+        <div class="des">
+            <span>Goat Curry Cut - Small Pieces</span>
+            <h5>500g</h5>
+            <h4>$643</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/ab0aaadd-f239-216e-5bdf-0d6c76f48f71/original/Mutton_Paya_Pdp_Image_(1).jpg" alt="">
+        <div class="des">
+            <span>Mutton Paya (Whole): Pack of 4</span>
+            <h5>500g</h5>
+            <h4>$439</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/39d7e397-da5d-4f0b-a028-45338ae762e1/original/PDP_30._Mutton_Liver_Chunks-16_(1).jpg" alt="">
+        <div class="des">
+            <span>Mutton Liver - Chunks</span>
+            <h5>500g</h5>
+            <h4>$292</h4>
+        </div>
+        <button onclick="alert()">Buy</button>
+        
+    </div>
+    <div class="product-info">
+        <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/b0d4d65c-3d48-6bb9-d25d-e99e539be34f/original/PDP_31._Mutton_Soup_Bones-19_(1).jpg" alt="">
+        <div class="des">
+            <span>Mutton Soup Bones</span>
+            <h5>500g</h5>
+            <h4>$479</h4>
+        </div>
+        <button>Buy</button>
+        
+    </div>
+   
+  </div>
+</section>
+
+<section class="products fidh">
+  <h2>Fish Item</h2>
+  <p>Most popular products in fish</p>
+<div class="product-card">
+  <div class="product-info">
+      <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/9c303ffa-918f-fdcf-861d-b468767f3b36/original/PDP_17.White_Prawns_(40-60C-Medium)_-_Cleaned_&_Deveined.jpg" alt="">
+      <div class="des">
+          <span>White Prawns/ Seegadi (Medium)</span>
+          <h5>250g</h5>
+          <h4>$424</h4>
+      </div>
+      <button>Buy</button>
+      
+  </div>
+  <div class="product-info">
+      <img src="https://assets.licious.in/OMS-ProductMerchantdising/55c3c050-b2d8-75ab-aae6-0cb00cfa56e8/original/1694079655369.jpg" alt="">
+      <div class="des">
+          <span>Rohu (Seelavathi / Rui) - Head</span>
+          <h5>500g</h5>
+          <h4>$89</h4>
+      </div>
+      <button>Buy</button>
+      
+  </div>
+  <div class="product-info">
+      <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/5c9aaae7-18de-e575-e6d1-935a40950e46/original/Mourola_Medium_Whole_&_Uncleaned_pr_owvl6w40m7b__(1).jpg" alt="">
+      <div class="des">
+          <span>Mourola Medium - Whole, Uncleaned</span>
+          <h5>500g</h5>
+          <h4>$292</h4>
+      </div>
+      <button>Buy</button>
+      
+  </div>
+  <div class="product-info">
+      <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/8314eaf5-222a-56c6-b6bb-b28f9fe15f98/original/PDP_10._Roopchand_-_Steaks_(1).jpg" alt="">
+      <div class="des">
+          <span>Roopchand (Chanduva) - Steaks</span>
+          <h5>500g</h5>
+          <h4>$479</h4>
+      </div>
+      <button>Buy</button>
+      
+  </div>
+ 
+</div>
+</section>
+
+<footer>
+<div class="col1">
+  <span>EXPERIENCE LICIOUS APP ON MOBILE</span>
+  <div class="image">
+    <img src="image/app.jpg" alt="">
+    <img src="image/play.jpg" alt="">
+  </div>
+</div>
+<div class="col2">
+  <span>USEFUL LINKS</span>
+  <div class="part">
+    <div class="part1">
+      <h5>Why Licious</h5>
+      <h5>Refer & Earn</h5>
+      <h5>Cash+</h5>
+      <h5>Carreres</h5>
+      <h5>BLOG</h5>
+    </div>
+    <div class="part2">
+      <h5>About Us</h5>
+      <h5>Bug Bounty Guidelines</h5>
+      <h5>T&Q</h5>
+      <h5>Privacy Policy</h5>
+    </div>
+  </div>
+
+</div>
+
+<div class="col3">
+  <span>CONTACT  US</span>
+<h5>Call:1800-4190-786</h5>
+<h5>talkous@licious.com</h5>
+<h5>REGISTERED OFFICE ADDRESS: <br>
+  DELIGHTFUL GOURMET PVT LTD <br>
+  Maruthi Infotech Center 11/1,12/1 B wing 1st <br>
+  Floor Amarjyothi layout Intermediate ring <br>
+  road Domlur, B.B.M.P East, Karnataka-560071 <br>
+  Bangalore, Karnataka - 560071</h5>
+  <img src="image/pay.png" alt="">
+</div>
+
+</footer>
+
+<div class="footer">
+  <h4>© 2021 Delightful Gourmet Pvt Ltd. All Rights Reserved.</h4>
+  <h5>Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are completely natural and healthy. Once you've experienced Licious, you'll never go back to the old way of buying meat and seafood.</h5>
+</div>
+
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
